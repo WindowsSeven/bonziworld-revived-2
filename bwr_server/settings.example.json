@@ -172,7 +172,7 @@
 		"genie"
 	],
 	"banLength": 1440,
-	"port": 3000,
+	"port": 2095,
 	"express": {
 		"serveStatic": true
 	}

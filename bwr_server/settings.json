@@ -189,7 +189,7 @@
 		"james"
 	],
 	"banLength": 1440,
-	"port": 80,
+	"port": 2095,
 	"express": {
 		"serveStatic": true
 	}
