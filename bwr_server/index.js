@@ -1,3 +1,4 @@
+while (true) {
 // ========================================================================
 // Server init
 // ========================================================================
@@ -42,7 +43,7 @@ if (settings.express.serveStatic)
 		extensions: ['html']
 	}));
 var server = require('http').createServer(app, console.log());
-  
+
 server.listenerCount(1);
 // Init socket.io
 var io = require('socket.io')(server);
@@ -103,3 +104,4 @@ Meat.beat();
 // Console commands
 const Console = require('./console.js');
 Console.listen();
+}
